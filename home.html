@@ -1,29 +1,30 @@
 <html>
 <body>
+
+<marquee scrollamount="10">	
+<p><b>FIND THE REAL NYAN CAT TO PROCEED!</b></p>
+</marquee>
+
 <link href="home_css.css" type="text/css" rel="stylesheet" />
 
-<marquee direction="up" width="500" height="200" behavior="alternate">
+<marquee direction="up" width="500" height="200" behavior="alternate"  scrollamount="15">
   <marquee behavior="alternate">
 
-<form action ="my_page/my_page.html">
 <button style="background-color:transparent; border-color:transparent;"> 
   <img src="background/nyan.gif" height="100"/>
 </button>
-</form>
   </marquee>
 </marquee>
 
 <marquee direction="down" width="1250" height="400" behavior="alternate">
-  <marquee behavior="alternate">
+  <marquee behavior="alternate" scrollamount="15">
 
   <marquee direction="up" width="500" height="100" behavior="alternate">
-  <marquee behavior="alternate">
+  <marquee behavior="alternate" >
 
-<form action ="my_page/my_page.html">
 <button style="background-color:transparent; border-color:transparent;"> 
   <img src="background/nyan.gif" height="100"/>
 </button>
-</form>
   </marquee>
 </marquee>
 
@@ -34,14 +35,12 @@
 </form>
 
   </marquee>
-<marquee direction="up" width="500" height="100" behavior="alternate">
+<marquee direction="up" width="500" height="100" behavior="alternate" scrollamount="15">
   <marquee behavior="alternate">
 
-<form action ="my_page/my_page.html">
 <button style="background-color:transparent; border-color:transparent;"> 
   <img src="background/nyan.gif" height="100"/>
 </button>
-</form>
   </marquee>
 </marquee>
 </marquee>
@@ -51,9 +50,12 @@
 
 
 <p hidden>
-<iframe width="0" height="0" src="https://www.youtube.com/embed/QH2-TGUlwu4?autoplay=1">
-</iframe>
+<video controls autoplay>
+  <source src="background/nyan_song.mp4" type="video/mp4">
+</video>
 </p>
+
+
 
 </body>
 </html>

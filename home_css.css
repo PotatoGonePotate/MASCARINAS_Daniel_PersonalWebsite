@@ -1,3 +1,9 @@
+p{
+	color: red;
+	bold;
+
+
+}
 body{
 	background-image: url('background/bg.gif');
 	background-size: 100% 100%;
