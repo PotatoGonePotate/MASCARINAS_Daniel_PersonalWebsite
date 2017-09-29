@@ -1,0 +1,30 @@
+body{
+	background-image: url('bg.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 195px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
