@@ -34,3 +34,14 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #333;
+  opacity: 0.5;
+  text-align: center;
+}
