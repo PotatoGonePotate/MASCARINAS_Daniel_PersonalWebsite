@@ -4,6 +4,12 @@ body{
 	background-repeat: no-repeat;
 }
 
+.logo{
+	position: absolute;
+	top: 0px;	
+	display: block;
+}
+
 p{
     position: absolute;
     font-style: Arial;
